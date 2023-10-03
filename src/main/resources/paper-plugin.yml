@@ -1,0 +1,9 @@
+name: McQuest
+version: '${version}'
+main: com.github.ioloolo.mcquest.McQuest
+api-version: '1.20'
+dependencies:
+  server:
+    PlayerNPC:
+      load: BEFORE
+      required: true
